@@ -85,7 +85,7 @@ section {
     background: white;
     padding: 20px;
     width: 80%;
-    height: 400px;
+    height: 300px;
     border-radius: 10px;
 
 
@@ -208,7 +208,7 @@ button {
     flex: 1;
     border-left: 1px solid #d1d5db;
     padding-left: 20px;
-    height: 400px;
+    height: 300px;
     gap: 10em;
 }
 
@@ -228,8 +228,6 @@ button {
     font-weight: 700;
     color: #374151;
     font-size: 30px;
-    
-  
 
 }
 
@@ -238,7 +236,8 @@ button {
     font-weight: 400;
     margin-bottom: 15px;
 }
-.image{
+
+.image {
     display: flex;
 }
 
@@ -250,14 +249,155 @@ button {
 .checkbox-container {
     margin-bottom: 20px;
 }
-.mobile-app{
+
+.main-mobile,
+p {
+    font-weight: 400;
+    font-size: 20px;
+    color: #6b7280;
 
 }
-.group-mobile{
+
+.group-mobile {
     display: flex;
     gap: 80px;
 }
-.main-mobile{
-    padding:2em;
+
+.main-mobile {
+    padding: 2em;
     gap: 3em;
+
+}
+
+.near-the-end {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 20px;
+
+}
+
+.nearier {
+    display: flex;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 40px;
+    color: #1f2937;
+    height: 50px;
+}
+
+.main-near {
+    width: 40%;
+
+    margin-top: 8em;
+
+}
+
+#small {
+    font-size: 15px;
+    margin: 25px;
+
+}
+
+.main-button {
+    display: flex;
+    gap: 30px;
+}
+
+#get {
+    border: 0;
+    background: #e4385d;
+    color: white;
+}
+
+#get:hover {
+    transform: translateY(1px);
+}
+
+#talk {
+
+    color: black;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+#talk:hover {
+    background: black;
+    border: 0;
+    cursor: pointer;
+    color: white;
+
+}
+
+#pic {
+    width: 35em;
+    height: 30em;
+    margin-left: 10em;
+}
+
+.section {
+    text-align: center;
+    padding: 60px 20px;
+    margin-top: 30em;
+    background: white;
+}
+
+.section h2 {
+    color: #ff0055;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.section h1 {
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.section p.subtitle {
+    color: #555;
+    max-width: 700px;
+    margin: 0 auto 40px;
+    line-height: 1.6;
+}
+
+.steps {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.step {
+    flex: 1 1 250px;
+    max-width: 300px;
+    text-align: center;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    background-color: #ffeef4;
+    color: #ff0055;
+    font-size: 40px;
+    font-weight: bold;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 20px;
+}
+
+.step h3 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.step p {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.6;
 }
