@@ -180,6 +180,8 @@ button {
 
 }
 
+
+
 .section-container {
     max-width: 1200px;
     margin: 40px auto;
@@ -188,10 +190,12 @@ button {
 
 .section-title {
     font-weight: 700;
-    font-size: 24px;
+    font-size: 40px;
     text-align: center;
     margin-bottom: 40px;
     color: #1f2937;
+    height: 50px;
+
 }
 
 .testimonials {
@@ -204,6 +208,8 @@ button {
     flex: 1;
     border-left: 1px solid #d1d5db;
     padding-left: 20px;
+    height: 400px;
+    gap: 10em;
 }
 
 .testimonial:first-child {
@@ -215,18 +221,25 @@ button {
     line-height: 1.6;
     margin-bottom: 20px;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 .testimonial strong {
     font-weight: 700;
     color: #374151;
+    font-size: 30px;
+    
+  
+
 }
 
 .testimonial .title {
     color: #6b7280;
     font-weight: 400;
     margin-bottom: 15px;
+}
+.image{
+    display: flex;
 }
 
 .logo {
@@ -236,4 +249,15 @@ button {
 
 .checkbox-container {
     margin-bottom: 20px;
+}
+.mobile-app{
+
+}
+.group-mobile{
+    display: flex;
+    gap: 80px;
+}
+.main-mobile{
+    padding:2em;
+    gap: 3em;
 }
