@@ -1,9 +1,10 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-header{
+
+header {
     display: flex;
     background: white;
     height: 50px;
@@ -13,21 +14,25 @@ header{
     align-items: center;
     display: flex;
     justify-content: space-between;
-    
+
 }
-.header-lelf{
+
+.header-lelf {
     padding: 10px;
 }
-#A{
+
+#A {
     color: rgb(236, 228, 228);
-    font-size:20px;
-    
+    font-size: 20px;
+
 }
-.header-nav-lilf{
+
+.header-nav-lilf {
     padding: 30px;
 
 }
-#button{
+
+#button {
     background: black;
     color: white;
     width: 80px;
@@ -35,124 +40,200 @@ header{
     border: none;
 
 }
-section{
+
+section {
     /* background: #cab5b5; */
     background: black;
+    height: 500px;
 }
-.main-section{
+
+.main-section {
     display: flex;
     color: white;
 
 }
-.main-grid{
+
+.main-grid {
     padding: 20px;
     display: flex;
 }
-.card-lelf{
+
+.card-lelf {
     gap: 10px;
-    
+
 }
-.main-choice{
+
+.main-choice {
     padding: 10px;
-  
+
 }
-.group{
+
+.group {
     display: flex;
     gap: 10px;
 }
-.group i{
+
+.group i {
     color: green;
 }
-#thom{
+
+#thom {
     font-size: 30px;
 }
 
-.card-right{
+.card-right {
     background: white;
     padding: 20px;
-    width: 50%;
-    height: 300px;
+    width: 80%;
+    height: 400px;
     border-radius: 10px;
-    
-    
-}
-.card{
-    display: flex;
-    gap: 4em;
-    
+
+
 }
 
-.main-card-right{
+.card {
     display: flex;
-    gap: 2em;
-    padding: 5px;
+    gap: 4em;
+
 }
-#name{
+
+.main-card-right {
+    display: flex;
+    gap: 1em;
+    padding: 10px;
+}
+
+#name {
     margin-right: 2em;
     border-radius: 10px;
     border: none;
 }
 
-button{
+button {
     height: 40px;
     width: 15em;
     border-radius: 10px;
     border: none;
 }
-#gmail{
+
+#gmail {
     margin-left: 3.3em;
     border-radius: 10px;
     border: none;
 }
-#company{
+
+#company {
     margin-left: 0.9em;
     border-radius: 10px;
     border: none;
 
 }
-#phone{
+
+#phone {
     margin-left: 1.5em;
     border-radius: 10px;
     border: none;
 }
-#number-phone{
+
+#number-phone {
     margin-left: 2.7em;
     border-radius: 10px;
     border: none;
 }
-#Role{
+
+#Role {
     margin-left: 1.5em;
     border-radius: 10px;
     border: none;
 }
-#role{
+
+#role {
     margin-left: 3.9em;
     border-radius: 10px;
     border: none;
-    
+
 }
-.main-card-right h3{
+
+.main-card-right h3 {
     color: black;
 }
-.btn{
+
+.btn {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 1em;
-    
+
 }
-.btn button{
+
+.btn button {
     border: 0;
     background: #e4385d;
     color: white;
 }
-.btn button:hover{
+
+.btn button:hover {
     background: black;
     border: 0;
     cursor: pointer;
     color: white;
 
-
 }
 
+.section-container {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
 
+.section-title {
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 40px;
+    color: #1f2937;
+}
+
+.testimonials {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.testimonial {
+    flex: 1;
+    border-left: 1px solid #d1d5db;
+    padding-left: 20px;
+}
+
+.testimonial:first-child {
+    border-left: none;
+}
+
+.testimonial p {
+    color: #6b7280;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.testimonial strong {
+    font-weight: 700;
+    color: #374151;
+}
+
+.testimonial .title {
+    color: #6b7280;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.logo {
+    max-width: 130px;
+    height: auto;
+}
+
+.checkbox-container {
+    margin-bottom: 20px;
+}
