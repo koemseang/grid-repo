@@ -194,7 +194,7 @@ a {
     flex: 1;
     border-left: 1px solid #d1d5db;
     padding-left: 20px;
-    height: 300px;
+    height: 330px;
     /* gap: 10em; */
     margin: 1em;
 }
@@ -206,27 +206,36 @@ a {
 .testimonial p {
     color: #6b7280;
     line-height: 1.6;
-    margin-bottom: 20px;
+    margin-bottom: 60px;
     font-weight: 400;
     font-size: 17px;
+    
 }
 
-.testimonial strong {
+.testimonial, strong {
     font-weight: 500;
     color: #374151;
-    font-size: 30px;
+    font-size: 20px;
+    margin-top: 0px;
+    
 
 }
-
+#come{
+    margin-top: 40em;
+}
 .testimonial .title {
     color: #6b7280;
-    font-weight: 400;
+    /* font-weight: 400; */
     margin-bottom: 20px;
+    margin-top: 20px;
 
 }
 
 .image {
     display: flex;
+    margin-top: 20px;
+    
+
 
 
 }
@@ -239,6 +248,9 @@ a {
 
 .checkbox-container {
     margin-bottom: 20px;
+}
+.mobile-app{
+   margin: 90px 0px;
 }
 
 .main-mobile,
@@ -348,14 +360,14 @@ p {
 .section h2 {
     color: #ff0055;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 15px;
     text-transform: uppercase;
     /* margin-bottom: 10em; */
 }
 
 .section h1 {
     font-size: 32px;
-    font-weight: 800;
+    font-weight: 400;
     margin-bottom: 20px;
 }
 
@@ -425,6 +437,7 @@ p {
     grid-template-columns: 1fr 1fr;
     padding: 60px;
     gap: 30px;
+    
 }
 
 .Mobile_app {
