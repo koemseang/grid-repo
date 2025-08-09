@@ -14,11 +14,12 @@ header {
     align-items: center;
     display: flex;
     justify-content: space-between;
+    margin: 15px;
 
 }
 
 .header-lelf {
-    padding: 10px;
+    padding: 15px;
 }
 
 #A {
@@ -64,7 +65,8 @@ a {
 }
 
 .card-lelf {
-    gap: 10px;
+    /* gap: 10px; */
+    padding: 20px;
 
 }
 
@@ -72,7 +74,13 @@ a {
     padding: 10px;
 
 }
+.card-lelf, h1{
+    padding: 20px;
+}
 
+.card-lelf, p{
+    gap: 90px;
+}
 .group {
     display: flex;
     gap: 10px;
@@ -94,7 +102,6 @@ a {
     border-radius: 10px;
     color: black;
     margin-left: 180px;
-
 
 }
 
@@ -120,7 +127,6 @@ a {
     color: grey;
     /* border: 60px; */
 
-
 }
 
 .sal-card2 {
@@ -140,7 +146,6 @@ a {
     color: grey;
 
 }
-
 
 .btn {
     display: flex;
@@ -212,17 +217,30 @@ a {
     
 }
 
-.testimonial, strong {
+.testimonial {
     font-weight: 500;
     color: #374151;
     font-size: 20px;
-    margin-top: 0px;
+     margin-top: 0px; 
     
+}
 
-}
 #come{
-    margin-top: 40em;
+    display: flex;
+    margin-top: 5.5em;
+    /* margin-bottom: 1em; */
+    
 }
+#came{
+    display: flex;
+    margin-top: 2em;
+    
+}
+#master{
+    display: flex;
+    margin-top: 4em;
+}
+
 .testimonial .title {
     color: #6b7280;
     /* font-weight: 400; */
@@ -479,12 +497,13 @@ p {
     flex-direction: column;
     justify-content: space-between;
     gap: 10px;
-    padding: 20px;
+    padding: 35px;
 }
 
 .main-card {
     display: flex;
     gap: 18em;
+    /* padding: 10px; */
 
 }
 
